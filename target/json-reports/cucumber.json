@@ -1,0 +1,443 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": ": TC_01 User logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24144317000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in",
+            "match": {
+              "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T11:51:55.870Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC_02 User selects an option",
+        "description": "",
+        "id": "payment;tc-02-user-selects-an-option;test-data;2",
+        "after": [
+          {
+            "result": {
+              "duration": 599880400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3517835400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select an \"Yiyecek\" from options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yiyecek\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3238231000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user adds it to cart",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7477122200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies the product",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@payment"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": ": TC_01 User logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22343408900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in",
+            "match": {
+              "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T11:52:34.965Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC_02 User selects an option",
+        "description": "",
+        "id": "payment;tc-02-user-selects-an-option;test-data;3",
+        "after": [
+          {
+            "result": {
+              "duration": 586677000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3676749400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select an \"Süt \u0026 Kahvaltı\" from options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Süt \u0026 Kahvaltı\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3249611000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user adds it to cart",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7482754300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies the product",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@payment"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": ": TC_01 User logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22192063100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in",
+            "match": {
+              "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T11:53:12.314Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC_02 User selects an option",
+        "description": "",
+        "id": "payment;tc-02-user-selects-an-option;test-data;4",
+        "after": [
+          {
+            "result": {
+              "duration": 610574200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3605414900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select an \"Bebek\" from options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bebek\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3246686100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user adds it to cart",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7489427200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies the product",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@payment"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": ": TC_01 User logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22085412300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in",
+            "match": {
+              "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T11:53:49.467Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC-03 User goes payment page",
+        "description": "",
+        "id": "payment;tc-03-user-goes-payment-page",
+        "after": [
+          {
+            "result": {
+              "duration": 719256400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-VAMO0RC\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.7\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: C:\\AppiumCucumber\\getir-tes..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\\AppiumCucumber\\getir-tes..., deviceName: SM-A305F, platformName: android, platformVersion: 9, udid: R58M45E9TBB}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-A305F, deviceName: R58M45E9TBB, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: R58M45E9TBB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 83, takesScreenshot: true, udid: R58M45E9TBB, viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 46fdaa8d-fe10-44ba-9817-088a27053f85\n*** Element info: {Using\u003did, value\u003dcom.getir.casestudy.dev:id/btnCheckout}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)\r\n\tat io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)\r\n\tat com.getir.stepDefinitions.PaymentStepDef.user_clicks_payment_button(PaymentStepDef.java:18)\r\n\tat ✽.user clicks payment button(file:///C:/GetirProject/src/test/resources/features/payment.feature:16)\r\n",
+              "duration": 14205151300,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "user clicks payment button",
+            "match": {
+              "location": "com.getir.stepDefinitions.PaymentStepDef.user_clicks_payment_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user verifies \"Amount\", \"Address\" and \"Payment Method\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amount\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Address\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Payment Method\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.getir.stepDefinitions.PaymentStepDef.user_verifies_and_are_displayed(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user verifies Amount, Current Adress and Payment Method are displayed",
+            "match": {
+              "location": "com.getir.stepDefinitions.PaymentStepDef.user_verifies_Amount_Current_Adress_and_Payment_Method_are_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user clicks orderNow button",
+            "match": {
+              "location": "com.getir.stepDefinitions.PaymentStepDef.user_clicks_orderNow_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@payment"
+          }
+        ]
+      }
+    ],
+    "name": "Payment",
+    "description": "",
+    "id": "payment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/payment.feature",
+    "tags": [
+      {
+        "name": "@payment",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="151.287">
+    <testcase classname="Payment" name="TC_02 User selects an option" time="39.08">
+        <system-out>
+            <![CDATA[Given user logs in..........................................................passed
+Given user select an "Yiyecek" from options.................................passed
+And user adds it to cart....................................................passed
+Then user verifies the product..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Payment" name="TC_02 User selects an option 2" time="37.342">
+        <system-out>
+            <![CDATA[Given user logs in..........................................................passed
+Given user select an "Süt & Kahvaltı" from options..........................passed
+And user adds it to cart....................................................passed
+Then user verifies the product..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Payment" name="TC_02 User selects an option 3" time="37.149">
+        <system-out>
+            <![CDATA[Given user logs in..........................................................passed
+Given user select an "Bebek" from options...................................passed
+And user adds it to cart....................................................passed
+Then user verifies the product..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Payment" name="TC-03 User goes payment page" time="37.019">
+        <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-VAMO0RC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\AppiumCucumber\getir-tes..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\AppiumCucumber\getir-tes..., deviceName: SM-A305F, platformName: android, platformVersion: 9, udid: R58M45E9TBB}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-A305F, deviceName: R58M45E9TBB, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: R58M45E9TBB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 83, takesScreenshot: true, udid: R58M45E9TBB, viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 46fdaa8d-fe10-44ba-9817-088a27053f85&#10;*** Element info: {Using=id, value=com.getir.casestudy.dev:id/btnCheckout}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given user logs in..........................................................passed
+Given user clicks payment button............................................failed
+And user verifies "Amount", "Address" and "Payment Method" are displayed....skipped
+And user verifies Amount, Current Adress and Payment Method are displayed...skipped
+Then user clicks orderNow button............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VAMO0RC', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\AppiumCucumber\getir-tes..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\AppiumCucumber\getir-tes..., deviceName: SM-A305F, platformName: android, platformVersion: 9, udid: R58M45E9TBB}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-A305F, deviceName: R58M45E9TBB, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: R58M45E9TBB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 83, takesScreenshot: true, udid: R58M45E9TBB, viewportRect: {height: 2048, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 46fdaa8d-fe10-44ba-9817-088a27053f85
+*** Element info: {Using=id, value=com.getir.casestudy.dev:id/btnCheckout}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at com.getir.stepDefinitions.PaymentStepDef.user_clicks_payment_button(PaymentStepDef.java:18)
+	at ✽.user clicks payment button(file:///C:/GetirProject/src/test/resources/features/payment.feature:16)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
