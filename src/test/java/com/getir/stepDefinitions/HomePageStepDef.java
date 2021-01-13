@@ -5,6 +5,8 @@ import com.getir.utilities.Driver;
 import com.getir.utilities.ReusableMethods;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 
 import java.net.MalformedURLException;
 
@@ -23,12 +25,18 @@ public class HomePageStepDef {
         HomePage.selectionSelect(option);
 
     }
+    public void clickElementByJS(WebElement element) throws MalformedURLException {
+        JavascriptExecutor jsExecutor = ((JavascriptExecutor) Driver.get());
+        jsExecutor.executeScript("arguments[0].click();", element);
+    }
+
 
     @Given("user adds it to cart")
     public void user_adds_it_to_cart() throws InterruptedException, MalformedURLException {
         Thread.sleep(3000);
+      //   clickElementByJS(homePage.sepeteEkle);
+       Driver.get().findElementById("com.getir.casestudy.dev:id/btnAdd").click();
 
-        Driver.get().findElementById("com.getir.casestudy.dev:id/btnAdd").click();
    //     Driver.get().findElementByAndroidUIAutomator("resource-id(\"com.getir.casestudy.dev:id/btnAdd\")");
     }
 

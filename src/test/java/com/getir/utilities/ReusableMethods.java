@@ -164,6 +164,11 @@ public class ReusableMethods {
         }
     }
 
+    public void clickElementByJS(WebElement element) throws MalformedURLException {
+        JavascriptExecutor jsExecutor = ((JavascriptExecutor) Driver.get());
+        jsExecutor.executeScript("arguments[0].click();", element);
+    }
+
 
 
 
