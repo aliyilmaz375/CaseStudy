@@ -44,6 +44,7 @@ public class LoginStepDef {
         @Then("user verifies profile button is displayed")
          public void user_verifies_profile_button_is_displayed() {
             Assert.assertTrue(login.profileMenu.isDisplayed());
+            System.out.println("tulin"); // first commit
 
     }
     }
