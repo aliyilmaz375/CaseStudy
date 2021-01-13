@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
 
 
-            tags = "@negativelogin",
+            tags = "@login",
 
             dryRun = false
     )
