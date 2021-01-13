@@ -7,7 +7,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
+import javax.swing.*;
 import java.net.MalformedURLException;
 
 public class HomePageStepDef {
@@ -30,14 +32,15 @@ public class HomePageStepDef {
         jsExecutor.executeScript("arguments[0].click();", element);
     }
 
-
+  // JScript commandlar i ile de actions ile de denedim ama maalesef sadece bu sekilde buldu elementleri.
     @Given("user adds it to cart")
     public void user_adds_it_to_cart() throws InterruptedException, MalformedURLException {
         Thread.sleep(3000);
-      //   clickElementByJS(homePage.sepeteEkle);
-       Driver.get().findElementById("com.getir.casestudy.dev:id/btnAdd").click();
-
-   //     Driver.get().findElementByAndroidUIAutomator("resource-id(\"com.getir.casestudy.dev:id/btnAdd\")");
+    //    clickElementByJS(homePage.arttirmaButonu);
+    //     Driver.get().findElementById("com.getir.casestudy.dev:id/btnAdd").click();
+    //   Actions actions = new Actions(Driver.get());
+    //   actions.moveToElement(homePage.arttirmaButonu).click().perform();
+    //    Driver.get().findElementByAndroidUIAutomator("resource-id(\"com.getir.casestudy.dev:id/btnAdd\")");
     }
 
     @Then("user verifies the product")
