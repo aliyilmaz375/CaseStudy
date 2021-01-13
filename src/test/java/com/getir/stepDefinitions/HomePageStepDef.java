@@ -37,7 +37,7 @@ public class HomePageStepDef {
     public void user_adds_it_to_cart() throws InterruptedException, MalformedURLException {
         Thread.sleep(3000);
     //    clickElementByJS(homePage.arttirmaButonu);
-    //     Driver.get().findElementById("com.getir.casestudy.dev:id/btnAdd").click();
+        Driver.get().findElementById("com.getir.casestudy.dev:id/btnAdd").click();
     //   Actions actions = new Actions(Driver.get());
     //   actions.moveToElement(homePage.arttirmaButonu).click().perform();
     //    Driver.get().findElementByAndroidUIAutomator("resource-id(\"com.getir.casestudy.dev:id/btnAdd\")");
