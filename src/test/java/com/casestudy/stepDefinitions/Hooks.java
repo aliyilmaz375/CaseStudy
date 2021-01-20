@@ -1,6 +1,6 @@
-package com.getir.stepDefinitions;
+package com.casestudy.stepDefinitions;
 
-import com.getir.utilities.Driver;
+import com.casestudy.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -9,7 +9,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.Augmenter;
 
-import java.io.File;
 import java.net.MalformedURLException;
 
 

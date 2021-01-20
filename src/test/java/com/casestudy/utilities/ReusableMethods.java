@@ -1,16 +1,13 @@
-package com.getir.utilities;
+package com.casestudy.utilities;
 
-import com.getir.pages.HomePage;
-import com.getir.pages.LogOutPage;
-import com.getir.pages.LoginPage;
+import com.casestudy.pages.HomePage;
+import com.casestudy.pages.LogOutPage;
+import com.casestudy.pages.LoginPage;
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;

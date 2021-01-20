@@ -1,8 +1,8 @@
-package com.getir.stepDefinitions;
+package com.casestudy.stepDefinitions;
 
-import com.getir.pages.LogOutPage;
-import com.getir.utilities.Driver;
-import com.getir.utilities.ReusableMethods;
+import com.casestudy.pages.LogOutPage;
+import com.casestudy.utilities.Driver;
+import com.casestudy.utilities.ReusableMethods;
 import io.cucumber.java.en.Given;
 
 import java.net.MalformedURLException;

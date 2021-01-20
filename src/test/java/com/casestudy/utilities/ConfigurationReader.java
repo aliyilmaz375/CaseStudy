@@ -1,4 +1,4 @@
-package com.getir.utilities;
+package com.casestudy.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;

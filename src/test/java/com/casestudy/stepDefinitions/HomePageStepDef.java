@@ -1,15 +1,13 @@
-package com.getir.stepDefinitions;
+package com.casestudy.stepDefinitions;
 
-import com.getir.pages.HomePage;
-import com.getir.utilities.Driver;
-import com.getir.utilities.ReusableMethods;
+import com.casestudy.pages.HomePage;
+import com.casestudy.utilities.Driver;
+import com.casestudy.utilities.ReusableMethods;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
-import javax.swing.*;
 import java.net.MalformedURLException;
 
 public class HomePageStepDef {

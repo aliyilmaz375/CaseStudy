@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="39.86">
-    <testcase classname="Positive Login" name="TC_01 User signes up with valid credentials" time="38.966">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="320.864">
+    <testcase classname="Option Selection" name="TC_02 User selects an option" time="41.51">
         <system-out>
-            <![CDATA[Given click username button.................................................passed
-Then enter username.........................................................passed
-And click password button...................................................passed
-And enter password..........................................................passed
-And click submit button.....................................................passed
-Then user verifies profile button is displayed..............................passed
+            <![CDATA[Given user logs in..........................................................passed
+Given user select an "Yiyecek" from options.................................passed
+And user adds it to cart....................................................passed
+Then user verifies the product..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Option Selection" name="TC_02 User selects an option 2" time="40.771">
+        <system-out>
+            <![CDATA[Given user logs in..........................................................passed
+Given user select an "Süt & Kahvaltı" from options..........................passed
+And user adds it to cart....................................................passed
+Then user verifies the product..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Option Selection" name="TC_02 User selects an option 3" time="40.793">
+        <system-out>
+            <![CDATA[Given user logs in..........................................................passed
+Given user select an "Bebek" from options...................................passed
+And user adds it to cart....................................................passed
+Then user verifies the product..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Option Selection" name="TC_03 User removes all products" time="196.913">
+        <system-out>
+            <![CDATA[Given user logs in..........................................................passed
+Given user removes all products.............................................passed
 ]]>
         </system-out>
     </testcase>

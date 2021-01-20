@@ -1,4 +1,4 @@
-package com.getir.runners;
+package com.casestudy.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -14,15 +14,15 @@ import org.junit.runner.RunWith;
             },
             //plugin = "html:target\\default-cucumber-reports",
             features ="src/test/resources/features",
-            glue = "com/getir/stepDefinitions",
+            glue = "com/casestudy/stepDefinitions",
 
 
 
-            tags = "@login",
+            tags = "@homepage",
 
             dryRun = false
     )
 
-    public class GetirRunner {
+    public class Runner {
     }
 

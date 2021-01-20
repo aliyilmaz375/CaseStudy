@@ -1,88 +1,275 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/homePage.feature");
 formatter.feature({
-  "name": "Positive Login",
+  "name": "Option Selection",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@login"
+      "name": "@homepage"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "TC_02 User selects an option",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "user select an \"\u003coption\u003e\" from options",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user adds it to cart",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user verifies the product",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "Test Data",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "option"
+      ]
+    },
+    {
+      "cells": [
+        "Yiyecek"
+      ]
+    },
+    {
+      "cells": [
+        "Süt \u0026 Kahvaltı"
+      ]
+    },
+    {
+      "cells": [
+        "Bebek"
+      ]
     }
   ]
 });
 formatter.background({
-  "name": "User goes to the landing page",
+  "name": ": TC_01 User Logs in",
   "description": "",
   "keyword": "Background"
 });
 formatter.before({
   "status": "passed"
 });
+formatter.step({
+  "name": "user logs in",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
-  "name": "TC_01 User signes up with valid credentials",
+  "name": "TC_02 User selects an option",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@login"
+      "name": "@homepage"
     }
   ]
 });
 formatter.step({
-  "name": "click username button",
+  "name": "user select an \"Yiyecek\" from options",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.getir.stepDefinitions.LoginStepDef.click_username_button()"
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "enter username",
+  "name": "user adds it to cart",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user verifies the product",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.getir.stepDefinitions.LoginStepDef.enter_username()"
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": ": TC_01 User Logs in",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user logs in",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC_02 User selects an option",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@homepage"
+    }
+  ]
+});
+formatter.step({
+  "name": "user select an \"Süt \u0026 Kahvaltı\" from options",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "click password button",
+  "name": "user adds it to cart",
   "keyword": "And "
 });
 formatter.match({
-  "location": "com.getir.stepDefinitions.LoginStepDef.click_password_button()"
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "enter password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "com.getir.stepDefinitions.LoginStepDef.enter_password()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "click submit button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "com.getir.stepDefinitions.LoginStepDef.click_submit_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user verifies profile button is displayed",
+  "name": "user verifies the product",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.getir.stepDefinitions.LoginStepDef.user_verifies_profile_button_is_displayed()"
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": ": TC_01 User Logs in",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user logs in",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC_02 User selects an option",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@homepage"
+    }
+  ]
+});
+formatter.step({
+  "name": "user select an \"Bebek\" from options",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user adds it to cart",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user verifies the product",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": ": TC_01 User Logs in",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user logs in",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC_03 User removes all products",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@homepage"
+    }
+  ]
+});
+formatter.step({
+  "name": "user removes all products",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.getir.stepDefinitions.HomePageStepDef.user_removes_all_products()"
 });
 formatter.result({
   "status": "passed"

@@ -1,7 +1,7 @@
-package com.getir.pages;
+package com.casestudy.pages;
 
 
-import com.getir.utilities.Driver;
+import com.casestudy.utilities.Driver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;

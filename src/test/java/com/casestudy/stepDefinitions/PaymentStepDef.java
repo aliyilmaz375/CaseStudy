@@ -1,8 +1,7 @@
-package com.getir.stepDefinitions;
+package com.casestudy.stepDefinitions;
 
-import com.getir.pages.PaymentPage;
-import com.getir.utilities.Driver;
-import com.getir.utilities.ReusableMethods;
+import com.casestudy.pages.PaymentPage;
+import com.casestudy.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;

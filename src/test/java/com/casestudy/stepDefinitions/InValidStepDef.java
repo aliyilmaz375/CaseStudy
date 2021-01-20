@@ -1,8 +1,8 @@
-package com.getir.stepDefinitions;
+package com.casestudy.stepDefinitions;
 
 
-import com.getir.pages.LoginPage;
-import com.getir.utilities.ReusableMethods;
+import com.casestudy.pages.LoginPage;
+import com.casestudy.utilities.ReusableMethods;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;

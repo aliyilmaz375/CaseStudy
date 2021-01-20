@@ -4,18 +4,31 @@
     "elements": [
       {
         "line": 3,
-        "name": "User goes to the landing page",
+        "name": ": TC_01 User Logs in",
         "description": "",
         "type": "background",
         "keyword": "Background",
-        "steps": []
+        "steps": [
+          {
+            "result": {
+              "duration": 24903155200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in",
+            "match": {
+              "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
       },
       {
-        "start_timestamp": "2021-01-13T18:06:03.574Z",
+        "start_timestamp": "2021-01-13T20:25:30.922Z",
         "before": [
           {
             "result": {
-              "duration": 1997600,
+              "duration": 1999500,
               "status": "passed"
             },
             "match": {
@@ -23,14 +36,315 @@
             }
           }
         ],
-        "line": 4,
-        "name": "TC_01 User signes up with valid credentials",
+        "line": 11,
+        "name": "TC_02 User selects an option",
         "description": "",
-        "id": "positive-login;tc-01-user-signes-up-with-valid-credentials",
+        "id": "option-selection;tc-02-user-selects-an-option;test-data;2",
         "after": [
           {
             "result": {
-              "duration": 1914723300,
+              "duration": 2103668900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3570630700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select an \"Yiyecek\" from options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yiyecek\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3282584700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user adds it to cart",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7483647500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies the product",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homepage"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": ": TC_01 User Logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24596534400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in",
+            "match": {
+              "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T20:26:12.448Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC_02 User selects an option",
+        "description": "",
+        "id": "option-selection;tc-02-user-selects-an-option;test-data;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1974993900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3490822300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select an \"Süt \u0026 Kahvaltı\" from options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Süt \u0026 Kahvaltı\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3243066900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user adds it to cart",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7463235700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies the product",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homepage"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": ": TC_01 User Logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24635904900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in",
+            "match": {
+              "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T20:26:53.232Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC_02 User selects an option",
+        "description": "",
+        "id": "option-selection;tc-02-user-selects-an-option;test-data;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1964060700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3471239700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select an \"Bebek\" from options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bebek\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_select_an_from_options(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3277085800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user adds it to cart",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_adds_it_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7440945400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies the product",
+            "match": {
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_verifies_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homepage"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": ": TC_01 User Logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24639622500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in",
+            "match": {
+              "location": "com.getir.stepDefinitions.LogOutStepDef.user_logs_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T20:27:34.029Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TC_03 User removes all products",
+        "description": "",
+        "id": "option-selection;tc-03-user-removes-all-products",
+        "after": [
+          {
+            "result": {
+              "duration": 2169556300,
               "status": "passed"
             },
             "match": {
@@ -43,92 +357,32 @@
         "steps": [
           {
             "result": {
-              "duration": 29087808400,
+              "duration": 170102534900,
               "status": "passed"
             },
-            "line": 6,
-            "name": "click username button",
+            "line": 17,
+            "name": "user removes all products",
             "match": {
-              "location": "com.getir.stepDefinitions.LoginStepDef.click_username_button()"
+              "location": "com.getir.stepDefinitions.HomePageStepDef.user_removes_all_products()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1042369000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "enter username",
-            "match": {
-              "location": "com.getir.stepDefinitions.LoginStepDef.enter_username()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1211740500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "click password button",
-            "match": {
-              "location": "com.getir.stepDefinitions.LoginStepDef.click_password_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1997169100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "enter password",
-            "match": {
-              "location": "com.getir.stepDefinitions.LoginStepDef.enter_password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1041330100,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click submit button",
-            "match": {
-              "location": "com.getir.stepDefinitions.LoginStepDef.click_submit_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2533686300,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user verifies profile button is displayed",
-            "match": {
-              "location": "com.getir.stepDefinitions.LoginStepDef.user_verifies_profile_button_is_displayed()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@login"
+            "name": "@homepage"
           }
         ]
       }
     ],
-    "name": "Positive Login",
+    "name": "Option Selection",
     "description": "",
-    "id": "positive-login",
+    "id": "option-selection",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
+    "uri": "file:src/test/resources/features/homePage.feature",
     "tags": [
       {
-        "name": "@login",
+        "name": "@homepage",
         "type": "Tag",
         "location": {
           "line": 1,
